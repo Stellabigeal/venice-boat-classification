@@ -1,12 +1,12 @@
 # Venice Boat Classification – Deep Learning Workflow
 
-## 📌 Project Overview
+##  Project Overview
 
 This project classifies **24 different types of boats in Venice** using deep learning. The goal is to automate visual recognition of boats and explore the benefits of **transfer learning** with MobileNetV2 compared to a CNN from scratch.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 * Automatically classify boat images into categories (e.g., gondola, motorboat, ferry).
 * Use supervised learning with labeled images.
@@ -20,7 +20,7 @@ This project classifies **24 different types of boats in Venice** using deep lea
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 
 * **Total images:** 4,774 (all in class-specific subfolders)
 * Non-image files like `DBinfo.txt` are ignored.
@@ -35,7 +35,7 @@ This project classifies **24 different types of boats in Venice** using deep lea
 
 ---
 
-## 🧠 Models & Experiments
+##  Models & Experiments
 
 ### 1️⃣ CNN From Scratch (Baseline)
 
@@ -75,7 +75,7 @@ This project classifies **24 different types of boats in Venice** using deep lea
 
 ---
 
-## ✅ Solution & Use Cases
+##  Solution & Use Cases
 
 * **Solution:** Fine-tuned MobileNetV2 accurately classifies boats about **8 out of 10 times**.
 * **Why it matters:** Automates boat recognition, informs tourism and safety decisions, and supports research.
@@ -88,7 +88,6 @@ This project classifies **24 different types of boats in Venice** using deep lea
 
 ---
 
-## 🚀 Key Takeaway
+##  Key Takeaway
 
 > Transfer learning significantly improves performance and stability for multi-class image classification, especially when dealing with limited or visually similar datasets.
-# venice-boat-classification
